@@ -23,7 +23,7 @@ main {
   }
   
 .navbar {
-    background: rgb(35, 41, 78);
+    background: rgba(255, 255, 255, 0.272);
     border: none;
   }
 
@@ -46,7 +46,6 @@ main {
   }
 /* --- Navbar CSS END ---*/
 
-
 /* --- Beige Box CSS START --- */
 .box {
      background-color: rgba(255, 253, 240, 0.809);
@@ -67,7 +66,7 @@ main {
      font-size: 32px;
      font-weight: bold;
      color: rgba(35, 41, 78, 0.68);
-     padding-left: 390px;
+     padding-left: 370px;
  }
 .box-header2 {
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
@@ -77,16 +76,28 @@ main {
     text-align: left;
     padding-left: 10px;
 }
-
-.row {
-    margin-left: 50px;
-}
 /* --- Beige Box CSS END --- */
 
+/* --- Contact page START --- */
+.submit-btn {
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: lighter;
+    color: #fff;
+    background-color: #a49261;
+    border: 0;
+    margin-left: 10px;
+  }
+  
+  .submit-btn:hover {
+    opacity: .8;
+  }
+/* --- Contact page END --- */
 
-/* --- Card CSS START --- */
+/* --- Card/Portfolio CSS START --- */
 .card {
     width: auto;
+    border: none;
 }
 
 #jordaz {
@@ -102,22 +113,22 @@ main {
 }
 
 #horiseon {
-    width: 365px;
-    height: 450px;
+    width: 415px;
+    height: 400px;
 }
 
 #passgen {
-    width: 365px;
-    height: 450px;
+    width: 415px;
+    height: 400px;
 }
 
 #codequiz {
-    width: 365px;
-    height: 450px;
+    width: 415px;
+    height: 400px;
 }
 
 #dayplan {
-    width: 365px;
-    height: 450px;
+    width: 415px;
+    height: 400px;
 }
-/* --- Card CSS START --- */
+/* --- Card CSS END --- */
